@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'KingfisherWrapper_Example' do
+  pod 'KingfisherWrapper', :path => '../'
+
+  target 'KingfisherWrapper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
