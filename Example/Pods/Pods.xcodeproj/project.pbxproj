@@ -11,7 +11,7 @@
 		364FF3CBDF681FDA552B20F7EBE464F5 /* Pods-KingfisherWrapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B430AA226B8BF73BBB2AC9E62727EF6 /* Pods-KingfisherWrapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8333F9D6F41D8CF7067CF822F992B1C6 /* Pods-KingfisherWrapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BABDA31F5B92EF7B11EF842FFABDE0 /* Pods-KingfisherWrapper_Tests-dummy.m */; };
 		8B215D9EEA18D755F6155F0FC207B282 /* KingfisherWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3059A22A948BA4928ECFB3709348C6AC /* KingfisherWrapper-dummy.m */; };
-		AA755AE35B025B1345F2A40DB057FCEA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D4EC7DAE59C5FBD0891BBB43B2958 /* ReplaceMe.swift */; };
+		AA755AE35B025B1345F2A40DB057FCEA /* KingfisherWrapperLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D4EC7DAE59C5FBD0891BBB43B2958 /* KingfisherWrapperLib.swift */; };
 		AFC521261D67197CB092B976D97554DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C8F66E3B2CDA701D6065A95B5E65CAEB /* Pods-KingfisherWrapper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C965FE14B84416E8EB77F4DA04C5F35D /* Pods-KingfisherWrapper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF413D30C842D9BACB364A826003044B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		026D5C89C11E1EA9524E15D44009561F /* KingfisherWrapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KingfisherWrapper-Info.plist"; sourceTree = "<group>"; };
 		0322CF590F5F75B79DFB8757783214EC /* Pods-KingfisherWrapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KingfisherWrapper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		186D4EC7DAE59C5FBD0891BBB43B2958 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KingfisherWrapper/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		186D4EC7DAE59C5FBD0891BBB43B2958 /* KingfisherWrapperLib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherWrapperLib.swift; path = KingfisherWrapper/Classes/KingfisherWrapperLib.swift; sourceTree = "<group>"; };
 		229E51FE771987C17E02B326BD5552E7 /* Pods-KingfisherWrapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KingfisherWrapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		30291156F80361F4489AB95AE49838A5 /* Pods-KingfisherWrapper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KingfisherWrapper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3059A22A948BA4928ECFB3709348C6AC /* KingfisherWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KingfisherWrapper-dummy.m"; sourceTree = "<group>"; };
@@ -57,10 +57,10 @@
 		84EEC802B66CE27D387F453661EF5DF5 /* Pods-KingfisherWrapper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KingfisherWrapper_Example-dummy.m"; sourceTree = "<group>"; };
 		8FD335D3D21835E03390CCFBB91F7EEF /* Pods-KingfisherWrapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KingfisherWrapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		98BABDA31F5B92EF7B11EF842FFABDE0 /* Pods-KingfisherWrapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KingfisherWrapper_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7432A4E8485D1CBB8D4B10B7EBC5E97 /* KingfisherWrapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KingfisherWrapper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7432A4E8485D1CBB8D4B10B7EBC5E97 /* KingfisherWrapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KingfisherWrapper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A77F243E99765D76936DEE53B887C00B /* Pods-KingfisherWrapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KingfisherWrapper_Tests.modulemap"; sourceTree = "<group>"; };
-		AC069B9FF6355635F4332B47BA1F2E31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AC069B9FF6355635F4332B47BA1F2E31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B45CDA70452619CC67CE8AC123AAC3DC /* Pods-KingfisherWrapper_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KingfisherWrapper_Example"; path = Pods_KingfisherWrapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C334A6ED991F19FC9C093E21F9658195 /* Pods-KingfisherWrapper_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KingfisherWrapper_Tests"; path = Pods_KingfisherWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51E872297AB7420F279CAB9E4AB7F4C /* KingfisherWrapper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KingfisherWrapper; path = KingfisherWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +69,7 @@
 		D1EDE4C82EC71BB7440E537F4E6457DD /* Pods-KingfisherWrapper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KingfisherWrapper_Tests-Info.plist"; sourceTree = "<group>"; };
 		F050FEC8493C5D86C05DED9B869B5DBC /* KingfisherWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KingfisherWrapper-umbrella.h"; sourceTree = "<group>"; };
 		F5EDCE1E8F5717574CAA8C5E77830F0B /* KingfisherWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KingfisherWrapper.release.xcconfig; sourceTree = "<group>"; };
-		FBBB59710040B837C5B7B54B061BEC60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FBBB59710040B837C5B7B54B061BEC60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +137,7 @@
 		34667D560E0C558B903933C57A6D1D9B /* KingfisherWrapper */ = {
 			isa = PBXGroup;
 			children = (
-				186D4EC7DAE59C5FBD0891BBB43B2958 /* ReplaceMe.swift */,
+				186D4EC7DAE59C5FBD0891BBB43B2958 /* KingfisherWrapperLib.swift */,
 				74651227780EEC104658D2424C3B80A7 /* Pod */,
 				6CA5F47BE3163DAEA214D820EE26AF53 /* Support Files */,
 			);
@@ -368,7 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B215D9EEA18D755F6155F0FC207B282 /* KingfisherWrapper-dummy.m in Sources */,
-				AA755AE35B025B1345F2A40DB057FCEA /* ReplaceMe.swift in Sources */,
+				AA755AE35B025B1345F2A40DB057FCEA /* KingfisherWrapperLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,8 +655,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
