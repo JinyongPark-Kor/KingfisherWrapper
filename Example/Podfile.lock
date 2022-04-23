@@ -1,0 +1,16 @@
+PODS:
+  - KingfisherWrapper (0.1.0)
+
+DEPENDENCIES:
+  - KingfisherWrapper (from `../`)
+
+EXTERNAL SOURCES:
+  KingfisherWrapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KingfisherWrapper: c5f0cedf7ec5e6bf17779327c09dd2753cc41c13
+
+PODFILE CHECKSUM: 43369b2cf852ff0a3c41981d68b41f71194ae376
+
+COCOAPODS: 1.11.3
